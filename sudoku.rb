@@ -78,6 +78,5 @@ class SudokuGame
   attr_reader :board
 end
 
-
-game = SudokuGame.from_file("puzzles/sudoku0.txt")
+game = SudokuGame.from_file("puzzles/sudoku" + ([1,2,3].sample).to_s + ".txt")
 game.run
