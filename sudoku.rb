@@ -47,10 +47,15 @@ class SudokuGame
   end
 
   def play_turn
+    # debugger
     board.render
-    val = get_pos
-    pos = get_val
+    # debugger
+    pos = get_pos
+    # debugger
+    val = get_val
+    # debugger
     board[pos] = val
+    # debugger
   end
 
   def run
